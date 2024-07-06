@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const dataContainer = document.getElementById('data-container');
 
     // Fetch data from the API
-    fetch('https://jsonplaceholder.typicode.com/posts')
+    fetch('http://localhost:3002/posts')
         .then(response => response.json())
         .then(data => {
             // Loop through the data and create HTML for each item
