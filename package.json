@@ -1,0 +1,16 @@
+{
+  "name": "satya_sample_frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Satya Practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
